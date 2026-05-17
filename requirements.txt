@@ -1,6 +1,10 @@
-fastapi==0.90.1
-requests
+fastapi
 uvicorn[standard]
-psycopg2
+asyncpg
+httpx
+pydantic
+python-dotenv
+prometheus-fastapi-instrumentator
 prometheus-client
-prometheus_fastapi_instrumentator
+tenacity
+python-multipart
